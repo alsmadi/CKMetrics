@@ -36,12 +36,12 @@ import java.util.*;
  */
 public class Main {
      static BufferedWriter writer = null;
-    public static void main(String... params) {
+    public static void main(String[] args) {
 
         System.out.println("Starting CK4J.");
 File fout = new File("out.txt");
 	
-//        String jarPath = "C:/Users/Duncan/Documents/NetBeansProjects/CodeGenExample_HelloWorld/target/CodeGenExample_HelloWorld-0.0.1-SNAPSHOT-jar-with-dependencies.jar";
+
         String jarPath = "C:\\Users\\ialsmadi\\Desktop\\SQA_UNH\\Jars\\acme.jar";
        
         try{
